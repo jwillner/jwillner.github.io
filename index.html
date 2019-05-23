@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<title>Achims First BLE-PWA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/w3.css">
+<link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/icons/favicon.ico" type="image/x-icon">
+
+write
+<body>
+  <div class="w3-container"> 
+  <h2>connect</h2>
+  <button onclick="connectBluetoothDevice()">connect_device</button>
+  <h2>write</h2>
+  <button onclick="writeBluetoothDevice()">write_device</button>
+  </div>
+  <h2>Text Input</h2>
+  <div class="w3-container"> 
+    <form>
+      Send Data:<br>
+      <input type="text" name="send_data"id="send_data">
+      <br>
+      Received Data:<br>
+      <input type="text" name="received_data" id="received_data">
+    </form>
+</div>
+  <script src="/js/my-pwa-ble.js"></script>
+</body>
+</html>
